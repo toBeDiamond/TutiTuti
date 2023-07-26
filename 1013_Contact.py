@@ -1,7 +1,7 @@
 
 import re
 import sys
-sys.stdin = open(".\알고리즘스터디\input\input_1013.txt", "r")
+sys.stdin = open(".\input\input_1013.txt", "r")
 
 results = []
 
