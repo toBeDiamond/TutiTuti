@@ -1,9 +1,5 @@
 import sys
-inputversion = "4"
 sys.stdin = open(".\input\input_1011.txt", "r")
-
-
-
 
 for T in range(int(input())):
     x, y = map(int, input().split()) # 0 <= x < y < 2^31
@@ -11,7 +7,7 @@ for T in range(int(input())):
     sqrt = round(distance ** 0.5)
 
     if (distance - sqrt ** 2) > 0:
-        print(2*sqrt)
+        print(2 * sqrt)
         continue
-    print(2*sqrt - 1)
+    print(2 * sqrt - 1)
 
