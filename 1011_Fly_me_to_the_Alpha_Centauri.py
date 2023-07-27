@@ -1,5 +1,4 @@
 import sys
-inputversion = "4"
 sys.stdin = open(".\input\input_1011.txt", "r")
 
 
